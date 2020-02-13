@@ -21,9 +21,12 @@
             android:id="@+id/logo"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="60dp"
-            android:src="@drawable/ic_app_logo" />
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="166dp"
+            android:layout_marginRight="166dp"
+            android:src="@drawable/logo" />
 
         <LinearLayout
             android:id="@+id/linearLayout1"
@@ -64,10 +67,11 @@
             <EditText
                 android:id="@+id/name"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:background="@drawable/edit_text_round_gray_background"
                 android:drawableLeft="@drawable/ic_name"
                 android:drawablePadding="10dp"
+                android:textSize="20sp"
                 android:hint="Kelechi Opara"
                 android:inputType="textPersonName"
                 android:padding="10dp" />
@@ -75,37 +79,40 @@
             <EditText
                 android:id="@+id/email"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:background="@drawable/edit_text_round_gray_background"
                 android:drawableLeft="@drawable/ic_email"
                 android:drawablePadding="10dp"
                 android:hint="kele@gmail.com"
                 android:inputType="textEmailAddress"
                 android:layout_marginTop="10dp"
+                android:textSize="20sp"
                 android:padding="10dp" />
 
             <EditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/edit_text_round_gray_background"
                 android:drawableLeft="@drawable/ic_lock"
                 android:drawablePadding="10dp"
                 android:hint="Password"
+                android:textSize="20sp"
                 android:inputType="textPassword"
                 android:padding="10dp"/>
 
             <EditText
                 android:id="@+id/confirm_password"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/edit_text_round_gray_background"
                 android:drawableLeft="@drawable/ic_lock"
                 android:drawablePadding="10dp"
                 android:hint="Confirm Password"
                 android:inputType="textPassword"
+                android:textSize="20sp"
                 android:padding="10dp" />
 
             <Button
